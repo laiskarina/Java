@@ -12,3 +12,8 @@ public class TesteSaida {
         System.out.printf ("%s tem %d anos %n", "Ana", 20);
     }
 }
+// printn --> printline quebra linha, veja no exemplo 1
+// print --> não quebra linha a escrita sai grudada, veja no exemplo 2 quando der o run
+
+// O printf é sempre nescessário no uso de número decimal (número racional (Q)), porque utilizando: %.2f --> cria um 7,50 ao invés de 7.5 veja no exemplo 3
+// No printf deve-se usar: %n --> para quebrar linha.
