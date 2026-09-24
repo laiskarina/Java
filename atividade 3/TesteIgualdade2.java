@@ -8,7 +8,7 @@ public class TesteIgualdade2 {
         System.out.print ("Digite a palavra java: ");
         String digitada = ler.nextLine();
 
-        System.out.println ("Com =.....:" + (digitada == "java"));
+        System.out.println ("Com == .....:" + (digitada == "java"));
         System.out.println ("Com equals ...:" + digitada.equals("java"));
 
         ler.close();
