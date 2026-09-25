@@ -20,7 +20,8 @@ public class Exemplo2Aula {
 //  Scanner input = --> aqui você está criando um objeto da classe Scanner, chamado input.
 // new Scanner -->
 // (System.in); é o parâmetro que diz "leia do teclado" (entrada padrão do sistema).
-// o input é só pra declarar o scanner. Porque input significa entrada, mas pode ser qualquer nome, por exemplo Rogerio.
+// o input é só pra declarar o scanner. Porque input significa entrada, mas pode ser qualquer nome,
+// por exemplo Rogerio.
 
 // if: se
 // else: senão/caso contrário

@@ -17,5 +17,6 @@ public class Armadilha {
     }
 }
 
-// sempre que você usar nextInt ou nextDouble, depois precisa acrescentar um nextLine. Caso contrário não vai pegar a 2° informação, que no caso do meu exemplo é o nome do
+// sempre que você usar nextInt ou nextDouble, depois precisa acrescentar um nextLine. Caso contrário
+// não vai pegar a 2° informação, que no caso do meu exemplo é o nome do
 // produto. o ler.nextLine(); simplesmente limpa o enter que sobrou.

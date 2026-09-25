@@ -18,5 +18,8 @@ public class Exemplo1Aula {
     }
 }
 //  Existem vários tipos de equals, estudá-los na atividade 3
-// o segundo caso que é equalsIgnoreCase() considera "iguais" strings que têm o mesmo conteúdo, mas com capitalização diferente. no caso o computador ele não sabe diferenciar que LAIS e lais são o mesmo conteúdo, então no equalsIgnoreCase solicito que desconsidere caixa alta "T" de caixa baixa "t".
+// o segundo caso que é equalsIgnoreCase() considera "iguais" strings que têm o mesmo conteúdo,
+// mas com capitalização diferente. no caso o computador ele não sabe diferenciar que LAIS e lais
+// são o mesmo conteúdo, então no equalsIgnoreCase solicito que desconsidere caixa alta "T" de caixa
+// baixa "t".
 
