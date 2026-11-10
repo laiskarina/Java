@@ -1,18 +1,18 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Divisores1 {
-    public static void main {
+    public static void main (String[] args) throws IOException {
         Scanner ler = new Scanner(System.in);
 
         int N = ler.nextInt();
 
+        for (int i = 1; i <= N; i++) {
+            if (N % i == 0) {
+                System.out.println(i);
+            }
+        }
 
-
+        ler.close();
     }
 }
-
-// pegar o valor e fazer ligação no if, else if, else?
-// tem que ter laço de repetição?
-// divisores são numeros que divididos entre si dão valor exato, com resto (0).
-
-// while(enquanto) -> (N = inteiro e positivo, continue); -> o comando seria mais ou menos assim, a lógica.
