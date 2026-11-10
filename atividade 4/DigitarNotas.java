@@ -11,7 +11,7 @@ public class DigitarNotas {
         float soma = 0;
 
         while (contador < quantidade) { 
-            System.out.println("Digite a nota "+(contador+1));
+            System.out.println("Digite a nota " + (contador + 1));
             float nota = input.nextFloat();
             soma = soma + nota;
             contador++;

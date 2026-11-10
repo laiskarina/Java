@@ -22,3 +22,5 @@ public class ComparacaoDeNomes {
         ler.close();
     }
 }
+
+// Serve pra comparar nomes e classificar qual vem primeiro na ordem alfabética.
