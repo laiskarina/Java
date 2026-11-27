@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Desconto {
@@ -14,20 +15,18 @@ public class Desconto {
         int desconto = ler.nextInt();
         ler.nextLine();
 
-        double DecimalValorDoDesconto = (desconto / 100);
+        double DecimalValorDoDesconto = (desconto / 100.0);
         double ValorDoDesconto = (price * DecimalValorDoDesconto);
         double PrecoFinal = (price - ValorDoDesconto);
 
-
+        Locale ptBR = Locale.forLanguageTag("pt-BR");
 
         System.out.println("---RECIBO---");
         System.out.println("Produto: " + prod);
-        System.out.printf("Preco Original: %.2f%n", price);
-        System.out.printf("Desconto: %.2f%n %d(", desconto, ")", ValorDoDesconto);
-        System.out.printf("Preco Final: %.2f%n", PrecoFinal);
+        System.out.printf("Preco Original: R$ %.2f%n", price);
+        System.out.printf("Desconto: (%d%%) R$ %.2f%n", desconto, ValorDoDesconto);
+        System.out.printf("Preco Final: R$ %.2f%n", PrecoFinal);
 
-
-
-
+        ler.close();
     }
 }
